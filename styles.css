@@ -1,0 +1,37 @@
+nav{
+    display: flex;
+    align-items:center ;
+    padding-top: space-between;
+    justify-content: 20px;
+    padding-left: 5%; ;
+    padding-right: 5%;
+    font-weight:bold ;
+}
+section{
+background-color: brown;
+margin-left: 4em;
+margin-top: 3em;
+
+}
+h1{
+    color: purple;
+    font-size: 45px;
+      
+
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+
+}
