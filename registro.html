@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>registro</title>
+    <title>Registro</title>
     <link rel="stylesheet" href="formulario.css">
+    <style>
+        body {
+            background-color: blue;
+            color: white; /* Cambié el color del texto para mejorar la legibilidad */
+        }
+    </style>
 </head>
 <body>
-  
     <form action="ejemplo.php" method="get">
         <p>Nombre: <input type="text" name="nombre" size="40"></p>
         <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
@@ -19,8 +24,9 @@
           <input type="submit" value="Enviar">
           <input type="reset" value="Borrar">
         </p>
-      </form>
-    </script>
-    <button type="button">Siguiente!</button>
-  </body>
+    </form>
+
+    <button type="button">Siguiente</button>
+    <a href="index.html">Inicio</a>
+</body>
 </html>

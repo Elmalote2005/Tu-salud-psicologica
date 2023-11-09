@@ -1,4 +1,12 @@
 form{
-    background-color: rgb(42, 44, 165);
-    justify-content: center;}
+background-color: rgb(42, 44, 165);
+justify-content: center;
+padding: 50px;
+margin-top: auto;}
     
+    .p{
+        background-position: 50%;
+        margin: 50px;
+        border: 50px;
+        text-align: center;
+    }
